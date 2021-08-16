@@ -69,7 +69,7 @@ Finally, we end by executing a withdraw from our account2 for the amount of 10 E
 This exercise runs on pragma solidity 0.5.0, on the following:
 
 
-* [Remix Ethereum](https://remix.ethereum.org/) – Open source web app for Ethereum contract dev
+* [Remix Ethereum](https://remix.ethereum.org/) – Open source web app for Ethereum contract development, testing, and rollout
 
 
 ---
