@@ -2,7 +2,7 @@
 
 A Solidty based approach, using contracts, arguments, and functions, to create a joint savings account between two addresses capable of receiving deposits and performing withdraws.
 
-Coding begins with creating our contract JointSavings, that will house our variables accountOne (address & payable), accountTwo (address & payable), lastToWithdraw (address & public), lastWithdrawAmount (uint & public), and contractBalance (uint public).
+Coding begins with creating our contract JointSavings, that will house our variables accountOne (address payable), accountTwo (address payable), lastToWithdraw (address public), lastWithdrawAmount (uint public), and contractBalance (uint public).
 
 Our first function will be withdraw, that will perform a check to determine that the recipient of an action is the previously defined accountOne or accountTwo. Failure in this situation will give the message "You don't own this account!".
 
